@@ -11,13 +11,13 @@ An end-to-end analytics pipeline that combines market data and financial news, a
 
 How it works:
 
-1️⃣ Collects financial news from **NewsAPI** and historical market data from **yfinance**
-2️⃣ Filters articles to retain news relevant to each company
-3️⃣ Uses **FinBERT** to convert each article into a sentiment score
-4️⃣ Stores market, news, and sentiment data in **PostgreSQL**
-5️⃣ Aggregates article-level sentiment into daily ticker-level features
-6️⃣ Examines how sentiment relates to **same-day returns, next-trading-day returns, and forward realized volatility**
-7️⃣ Presents the results in an interactive **Streamlit + Plotly dashboard**
+1️⃣ Collects financial news from **NewsAPI** and historical market data from **yfinance**  
+2️⃣ Filters articles to retain news relevant to each company  
+3️⃣ Uses **FinBERT** to convert each article into a sentiment score  
+4️⃣ Stores market, news, and sentiment data in **PostgreSQL**  
+5️⃣ Aggregates article-level sentiment into daily ticker-level features  
+6️⃣ Examines how sentiment relates to **same-day returns, next-trading-day returns, and forward realized volatility**  
+7️⃣ Presents the results in an interactive **Streamlit + Plotly dashboard**  
 
 
 ## 💡Key Features
