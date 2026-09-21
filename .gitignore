@@ -1,0 +1,22 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Model / data caches
+.cache/
+data/
+
+# Streamlit local config/secrets (e.g. .streamlit/secrets.toml)
+.streamlit/
+
+# Editors & OS
+.vscode/
+.idea/
+.DS_Store

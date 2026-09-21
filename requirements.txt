@@ -1,0 +1,11 @@
+requests
+yfinance
+pandas
+sqlalchemy
+psycopg2-binary
+python-dotenv
+transformers
+torch
+streamlit
+plotly
+pytest
