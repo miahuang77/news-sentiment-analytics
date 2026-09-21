@@ -1,4 +1,6 @@
-# Financial News Sentiment Analytics
+# MarketPulse
+
+### Financial News Sentiment & Market Analytics
 
 ## ✨Inspiration
 
@@ -76,14 +78,7 @@ The PostgreSQL database contains three primary tables.
 Stores daily market data.
 
 ```text
-ticker
-date
-open
-high
-low
-close
-volume
-daily_return
+ticker; date; open; high; low; close; volume; daily_return
 ```
 
 Primary key:
@@ -96,14 +91,7 @@ Primary key:
 
 Stores relevant financial news and FinBERT sentiment scores.
 
-```text
-article_id
-ticker
-title
-description
-source
-published_at
-sentiment_score
+```text; article_id; ticker; title; description; source; published_at; sentiment_score
 ```
 
 Primary key:
@@ -116,11 +104,7 @@ article_id
 
 Stores aggregated daily sentiment.
 
-```text
-ticker
-date
-avg_sentiment
-article_count
+```text; ticker; date; avg_sentiment; article_count
 ```
 
 Primary key:
@@ -254,6 +238,12 @@ python -m src.analysis.analysis
 
 ```bash
 streamlit run dashboard/app.py
+```
+
+### Run tests
+
+```bash
+pytest tests/
 ```
 
 
